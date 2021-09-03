@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    .assign-btn {
+      text-align: center !important;
+    }
+    .singin-img {
+      display: none;
+    }
+    #root,
+    .App {
+      height: 100%;
+    }
+    .space-divider {
+      padding-bottom: 0px;
+    }
+  }
+  
