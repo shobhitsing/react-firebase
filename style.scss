@@ -1,16 +1,46 @@
-@media (max-width: 768px) {
-    .assign-btn {
-      text-align: center !important;
+.parxeller-current-space {
+    padding-left: 30px;
+  }
+  .overlay1,
+  .overlay2 {
+    position: absolute;
+    top: -16px;
+    left: 0px;
+    padding: 15px;
+    z-index: 1;
+  }
+  .link-color {
+    color: #08d0e6;
+    font-weight: 500;
+  }
+  @media (max-width: 992px) {
+    section.bg-signup {
+      height: 350px;
     }
     .singin-img {
       display: none;
     }
-    #root,
-    .App {
-      height: 100%;
+    .parxeller-current-space {
+      padding-top: 15px;
     }
-    .space-divider {
-      padding-bottom: 0px;
+    .parxeller-current-space {
+      padding-left: 0px;
+    }
+  }
+  @media (max-width: 767px) {
+    section.bg-signup {
+      height: 300px;
+    }
+    .parxeller-text-align {
+      padding-top: 20px;
+    }
+    .parxeller-bg .signin-logo {
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-width: 319px) {
+    section.bg-signup {
+      height: 350px;
     }
   }
   
