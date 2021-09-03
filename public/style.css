@@ -1,0 +1,820 @@
+/*******  signin/ signip start *******/
+html, body {
+  height: 100%;
+}
+
+.space-divider {
+  padding: 25px 0px;
+}
+
+.space-divider .login-signup {
+  text-align: end;
+  margin-top: 20px;
+}
+
+.space-divider .btn-signup {
+  background: #08d0e6;
+  color: #ffffff;
+  padding: 6px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+}
+
+.space-divider .btn-signin {
+  background: #ffffff;
+  color: #08d0e6;
+  padding: 6px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  border: 1px solid #08d0e6;
+  margin-left: 15px;
+}
+
+.parxeller-image {
+  position: relative;
+}
+
+.parxeller-image:before {
+  position: absolute;
+  background-repeat: no-repeat;
+  right: 0;
+  display: block;
+  content: url(images/sign-up-bg.jpg);
+  background-size: cover;
+  background-size: 87px, 200px;
+  z-index: -1;
+}
+
+.parxeller-image .heading-bold h1 {
+  font-size: 56px;
+  font-weight: 800;
+  font-family: "Libre Franklin", sans-serif;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+
+.parxeller-image .para-text p {
+  font-size: 18px;
+  font-family: "Libre Franklin";
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.parxeller-image span.theme-text {
+  color: #08d0e6;
+  display: block;
+}
+
+.parxeller-image .space-parller {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.parxeller-image .assign-btn .btn-signup {
+  border-radius: 50px !important;
+  padding: 10px 30px !important;
+  background: #08d0e6;
+  color: #ffffff;
+  padding: 6px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+}
+
+.parxeller-image .app-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.parxeller-image .google-app {
+  margin-left: 20px;
+}
+
+.signup-footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(112, 176, 237, 0.11)), color-stop(24%, rgba(14, 206, 166, 0.24)));
+  background: linear-gradient(rgba(112, 176, 237, 0.11) 0%, rgba(14, 206, 166, 0.24) 24%);
+  padding: 20px 0px;
+  margin-top: 65px;
+}
+
+.signup-footer .get-assignment h3 {
+  font-size: 27px;
+  font-weight: 700;
+  font-family: "Libre Franklin";
+  line-height: 27px;
+}
+
+.signup-footer .get-assignment p {
+  font-size: 14px;
+  font-family: "Libre Franklin";
+  margin-bottom: 0;
+}
+
+.signup-footer .assign-btn {
+  margin-top: 15px;
+}
+
+.signup-footer .assign-btn .btn-signup {
+  border-radius: 50px !important;
+  padding: 10px 30px !important;
+  background: #08d0e6;
+  color: #ffffff;
+  padding: 6px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+}
+
+.parxeller-bg {
+  background: #08d0e6;
+  padding: 20px;
+  padding-top: 70px;
+  text-align: center;
+  height: 100%;
+}
+
+.parxeller-bg .parxeller-text-align {
+  text-align: left;
+}
+
+.parxeller-bg .signin-logo {
+  margin-bottom: 50px;
+}
+
+.parxeller-bg .signin-logo {
+  text-align: left;
+}
+
+.parxeller-bg .signin-logo img {
+  width: 250px;
+  text-align: left;
+}
+
+.parxeller-bg .signin-heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 50px;
+  line-height: 29px;
+  font-family: "Libre Franklin", sans-serif;
+  text-align: left;
+}
+
+.parxeller-bg .signin-heading ul {
+  padding: 0;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.parxeller-bg .signin-heading ul li {
+  font-size: 14px;
+  list-style: disc;
+}
+
+.parxeller-text-align {
+  padding: 0;
+  padding-top: 70px;
+  background: transparent;
+}
+
+.parxeller-bg-space {
+  padding: 20px;
+  padding-top: 50px;
+  padding-right: 40px;
+}
+
+.parxeller-bg-space .form-heding {
+  font-size: 34px;
+  font-weight: 700;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 39px;
+  margin-bottom: 10px;
+  color: #0F2441;
+  text-align: start;
+}
+
+.parxeller-bg-space .form-sub-heading {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Libre Franklin", sans-serif;
+  color: #0F2441;
+  line-height: 19px;
+  text-align: start;
+}
+
+.parxeller-bg-space .form-group {
+  margin-bottom: 25px;
+  text-align: start;
+}
+
+.parxeller-bg-space .form-icon {
+  position: relative;
+}
+
+.parxeller-bg-space .form-icon-position {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}
+
+.parxeller-bg-space .form-format {
+  padding-top: 30px;
+}
+
+.parxeller-bg-space label {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 18px;
+  color: #0F2441;
+}
+
+.parxeller-bg-space .custom-form-control {
+  height: 50px;
+  border-radius: 8px;
+  background: #FAFBFC;
+  border: 1px solid #D4E0F3;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 18px;
+}
+
+.parxeller-bg-space .custom-form-control :placeholder {
+  color: #D4E0F3;
+}
+
+.parxeller-bg-space .forgot {
+  font-size: 13px;
+  line-height: 16px;
+  margin: 20px 0px;
+  color: #DA4B4B;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.parxeller-bg-space .forgot .forgot-text {
+  color: #DA4B4B;
+}
+
+.parxeller-bg-space .signin-btn {
+  border-radius: 50px !important;
+  padding: 10px 40px !important;
+  background: #08d0e6;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.parxeller-bg-space .signup-btn {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.parxeller-bg-space .suggest-text {
+  font-size: 14px;
+  color: #D4E0F3;
+  line-height: 17px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.parxeller-bg-space .suggest-text .link-color {
+  color: #08d0e6;
+}
+
+.parxeller-bg-space .parxeller-shorting {
+  width: 100%;
+}
+
+.parxeller-current-space {
+  padding: 0px;
+  padding-top: 50px;
+}
+
+.parxeller-divder1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+/*******  signin/ signip end *******/
+/*******  plan-step start *******/
+header.main-header {
+  background: #F9F9FA;
+  padding: 10px 0px;
+}
+
+header.main-header .brand-logo {
+  width: 250px;
+}
+
+header.main-header li.nav-item {
+  padding: 0px 5px;
+}
+
+header.main-header li.nav-item.active {
+  background: #08d0e6;
+  color: #ffffff;
+  border-radius: 26px;
+}
+
+header.main-header li.nav-item a.nav-link {
+  color: #000000 !important;
+}
+
+header.main-header li.nav-item.active a.nav-link {
+  color: #ffffff !important;
+}
+
+header.main-header .user-profile {
+  width: 30px;
+  position: relative;
+  margin-right: 14px;
+  border: 1px solid #D4E0F3;
+  border-radius: 100%;
+}
+
+header.main-header .user-profile img {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header.main-header span.user-list-drop {
+  position: absolute;
+  top: 7px;
+  right: -14px;
+  color: #08d0e6;
+  font-size: 14px;
+}
+
+section.bg-signup {
+  position: relative;
+  background: #08d0e6;
+  height: 100%;
+}
+
+section.bg-signup:before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: #ffffff;
+  right: 0;
+}
+
+/****** plan page css*******/
+.plan-page.parxeller-image {
+  position: relative;
+}
+
+.plan-page.parxeller-image:before {
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 0;
+  display: block;
+  content: url(images/plan-bg.png);
+  background-size: cover;
+  overflow-x: hidden;
+  z-index: -1;
+}
+
+.plan-page.parxeller-image .plan-list {
+  position: relative;
+  top: 25%;
+  padding: 20px;
+}
+
+.plan-page.parxeller-image .plan-list ul {
+  padding: 0px;
+  padding-left: 20px;
+}
+
+.plan-page.parxeller-image .plan-list ul li {
+  background: #FBFBFB;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 46px;
+  color: #ffffff;
+  padding-left: 75px;
+  border: 2px solid #EDEBEB;
+  list-style: none;
+  color: #000000;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  position: relative;
+  cursor: pointer;
+  font-size: 15px;
+  width: 285px;
+}
+
+.plan-page.parxeller-image .plan-list ul li .plan-list-icon {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  border: 2px solid #000000;
+  padding-top: 10px;
+}
+
+.plan-page.parxeller-image .plan-list ul li:after {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  content: '';
+  display: block;
+  background: #EDEBEB;
+  top: 20px;
+  left: -47px;
+  border-radius: 100%;
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  z-index: 111;
+}
+
+.plan-page.parxeller-image .plan-list ul li:before {
+  position: absolute;
+  width: 8px;
+  height: 125px;
+  content: '';
+  display: block;
+  background: #EDEBEB;
+  top: -22px;
+  left: -36px;
+  border: 0px solid #d1d1d1;
+  border-radius: 10px;
+}
+
+.plan-page.parxeller-image .plan-list ul {
+  padding: 0px;
+  padding-left: 20px;
+}
+
+.plan-page.parxeller-image .plan-list ul li.active {
+  background: #08d0e6;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 46px;
+  border: 2px solid #08d0e6;
+  color: #ffffff;
+  padding-left: 75px;
+  position: relative;
+}
+
+.plan-page.parxeller-image .plan-list ul li.active .plan-list-icon {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  border: 2px solid #ffffff;
+  padding-top: 10px;
+}
+
+.plan-page.parxeller-image .plan-list ul li.active:after {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  content: '';
+  display: block;
+  background: #08d0e6;
+  top: 20px;
+  left: -47px;
+  border-radius: 100%;
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  z-index: 111;
+}
+
+.plan-page.parxeller-image .plan-list ul li.active:before {
+  position: absolute;
+  width: 8px;
+  height: 125px;
+  content: '';
+  display: block;
+  background: #08d0e6;
+  top: -22px;
+  left: -36px;
+  border: 0px solid #d1d1d1;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+section.space {
+  padding: 70px 0px;
+}
+
+section.space .wide-heading {
+  font-size: 28px;
+  font-weight: 800;
+  font-family: "Libre Franklin", sans-serif;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.question-steps {
+  margin-bottom: 20px;
+  width: 75%;
+  text-align: center;
+}
+
+.question-steps .pages-show {
+  font-family: "Libre Franklin", sans-serif;
+  color: #08d0e6;
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.question-steps .progress {
+  height: 6px;
+  background: #FBFBFB;
+  border-radius: 4px;
+}
+
+.question-steps .progress .progress-bar {
+  background: linear-gradient(134.36deg, #00C9C9 31.11%, #5A85E0 100%);
+  border-radius: 4px;
+}
+
+.question-heading {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.qustion-short-heading {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-family: 'Libre Franklin';
+  color: #000000;
+}
+
+.form-format {
+  width: 100%;
+}
+
+.form-format label {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 18px;
+  color: #0F2441;
+}
+
+.form-format .form-group {
+  margin-bottom: 25px;
+}
+
+.form-format .form-control {
+  height: 50px !important;
+  border-radius: 8px !important;
+  background: #FAFBFC!important;
+  border: 1px solid #D4E0F3!important;
+  font-size: 16px!important;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 18px!important;
+}
+
+.form-format .form-icon {
+  position: relative;
+}
+
+.form-format .form-icon-position {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  z-index: 1;
+}
+
+.form-format .next-button {
+  border-radius: 50px !important;
+  padding: 10px 40px !important;
+  background: #08d0e6;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form-format input[type="radio"] {
+  display: none;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  color: #8495B1;
+}
+
+.form-format input[type="radio"] + *::before {
+  content: "";
+  display: inline-block;
+  vertical-align: bottom;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #8495B1;
+}
+
+.form-format input[type="radio"]:checked + * {
+  color: #08d0e6;
+}
+
+.form-format input[type="radio"]:checked + *::before {
+  background: radial-gradient(#08d0e6 0%, #08d0e6 40%, transparent 50%, transparent);
+  border-color: #08d0e6;
+}
+
+.optional-question {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.optional-question .form-check {
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+
+.optional-question label {
+  font-size: 15px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  color: #0F2441;
+}
+
+.optional-question input[type="radio"] {
+  display: none;
+}
+
+.optional-question input[type="radio"] + *::before {
+  content: "";
+  display: inline-block;
+  vertical-align: bottom;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #8495B1;
+}
+
+.optional-question input[type="radio"]:checked + * {
+  color: #08d0e6;
+}
+
+.optional-question input[type="radio"]:checked + *::before {
+  background: radial-gradient(#08d0e6 0%, #08d0e6 40%, transparent 50%, transparent);
+  border-color: #08d0e6;
+}
+
+.table-responsive {
+  border-radius: 10px;
+  border: 1px solid rgba(151, 151, 151, 0.2);
+  margin-bottom: 50px;
+}
+
+.table-responsive .table.table-custom {
+  background: #ffffff;
+}
+
+.table-responsive .table.table-custom th {
+  border: 0px;
+  font-size: 14px;
+  font-family: "Libre Franklin", sans-serif;
+  font-family: 600;
+  min-width: 200px;
+}
+
+.table-responsive .table.table-custom td {
+  border: 0px;
+}
+
+.table-responsive .table.table-custom .table-even {
+  background: rgba(242, 242, 242, 0.33);
+}
+
+.table-responsive .table.table-custom .form-check {
+  text-align: center;
+}
+
+.table-responsive .table.table-custom .top-heading-table {
+  text-align: center;
+}
+
+.table-responsive .table.table-custom input[type="radio"] {
+  display: none;
+}
+
+.table-responsive .table.table-custom input[type="radio"] + *::before {
+  content: "";
+  display: inline-block;
+  vertical-align: bottom;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #8495B1;
+}
+
+.table-responsive .table.table-custom input[type="radio"]:checked + * {
+  color: #08d0e6;
+}
+
+.table-responsive .table.table-custom input[type="radio"]:checked + *::before {
+  background: radial-gradient(#08d0e6 0%, #08d0e6 40%, transparent 50%, transparent);
+  border-color: #08d0e6;
+}
+
+.next-button {
+  border-radius: 50px !important;
+  padding: 10px 40px !important;
+  background: #08d0e6;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+@media (max-width: 1200px) {
+  .heading-bold h1 {
+    white-space: unset !important;
+  }
+}
+
+@media (max-width: 992px) {
+  section.bg-signup:before {
+    width: 100%;
+    height: 100%;
+    background: #ffff;
+    top: 70vh;
+    left: 0;
+  }
+  .parxeller-divder {
+    display: unset !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-signup {
+    text-align: left !important;
+  }
+  .parxeller-image .space-parller {
+    margin-top: 50px;
+  }
+  .parxeller-image .heading-bold h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .form-group {
+    padding: 0px;
+  }
+  .parxeller-divder1 {
+    display: block;
+  }
+  .text-right {
+    text-align: left !important;
+    margin-top: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
